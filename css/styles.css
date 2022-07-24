@@ -9,7 +9,15 @@ header {
   font-size: xx-large;
   color: rgb(0, 0, 0);
   text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
 }
+
+.artists {
+  text-align: left;
+}
+
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -142,39 +150,12 @@ header {
   }
 }
 
-/* nav {
-  background-color: rgb(240, 248, 255, 0.5);
-  color: rgb(0, 0, 0);
-  font-size: 32px;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 1;
-} */
 
 .jumbotron {
   background: transparent url("../img/fireworks\ background.webp") repeat center;
   height: 400px; 
   margin-bottom: 10px;
 }
-
-/* .container {
-  background-color: transparent;
-  min-height: 900px;
-  min-width: 1000px;
-  margin: auto;
-}
-
-.wrapper {
-  padding: 13px;
-  margin-top: 45px;
-}
-
-.row {
-  padding: 13px;
-  padding-bottom: 60px;
-} */
 
 
 .box {
@@ -240,23 +221,13 @@ header {
 
 .para {
   text-align: left;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
-/* .col-right {
-  background-color: rgb(10, 10, 56, 0.5);
-  height: 1000px;
-  width: 557px;
-  font-size: 20px;
+.background {
+  background-color: white;
 }
-
-.col-left {
-  background-color: rgb(240, 248, 255);
-  height: 1000px;
-  width: 557px;
-  font-size: 20px;
-} */
 
 footer {
   background-color: rgb(240, 248, 255, 0.5);
