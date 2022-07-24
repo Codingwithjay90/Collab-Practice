@@ -142,7 +142,7 @@ header {
   }
 }
 
-nav {
+/* nav {
   background-color: rgb(240, 248, 255, 0.5);
   color: rgb(0, 0, 0);
   font-size: 32px;
@@ -151,7 +151,7 @@ nav {
   top: 0;
   left: 0;
   z-index: 1;
-}
+} */
 
 .jumbotron {
   background: transparent url("../img/fireworks\ background.webp") repeat center;
@@ -159,7 +159,7 @@ nav {
   margin-bottom: 10px;
 }
 
-.container {
+/* .container {
   background-color: transparent;
   min-height: 900px;
   min-width: 1000px;
@@ -174,57 +174,77 @@ nav {
 .row {
   padding: 13px;
   padding-bottom: 60px;
+} */
+
+
+.box {
+  display: inline-block;
+  margin-bottom: 200px;
+  margin-left: 5px;
 }
 
 .container-fluid {
   display: inline-block;
 }
 
-.flip-card {
+.flip-box {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 150px;
   perspective: 1000px;
 }
 
-.flip-card-inner {
+.flip-box-inner {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 150px;
   text-align: center;
-  transition: transform 0.6s;
+  transition: transform 0.8s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
 }
 
-.flip-card-front,
-.flip-card-back {
+.flip-box-front,
+.flip-box-back {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 230px;
+  height: 150px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-.flip-card-front {
+.flip-box-front {
   background-color: #bbb;
   color: black;
 }
 
-.flip-card-back {
-  background-color: #2980b9;
+.flip-box-back {
+  background-color: dodgerblue;
   color: white;
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
+}
+
+.photo {
+  box-shadow: 4px 8px 10px rgba(2, 0, 36, 1);
+  margin-bottom: 10px;
+  width: 230px;
+  height: 150px;
+}
+
+.space {
+  margin-top: 10px;
+}
+
+.para {
+  text-align: left;
 }
 
 
 
-
-.col-right {
+/* .col-right {
   background-color: rgb(10, 10, 56, 0.5);
   height: 1000px;
   width: 557px;
@@ -236,11 +256,48 @@ nav {
   height: 1000px;
   width: 557px;
   font-size: 20px;
-}
+} */
 
 footer {
   background-color: rgb(240, 248, 255, 0.5);
   color: rgb(0, 0, 0);
   font-size: 32px;
   text-align: center;
+}
+
+.bottom {
+  color: rgb(255, 255, 255);
+  float: left;
+  margin-top: 15px;
+}
+
+.fa-meteor {
+  color: rgb(255, 255, 255);
+}
+
+.fa-facebook {
+  color: rgb(255, 255, 255);
+}
+
+.fa-instagram {
+  color: rgb(255, 255, 255);
+}
+
+.fa-youtube {
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  box-shadow: 4px 8px 10px rgb(0, 212, 255, 1);
+  height: 60px;
+  width: 100px;
+  float: right;
+}
+
+.copy {
+  float: right;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  margin-right: 10px;
+  margin-top: 15px;
 }
