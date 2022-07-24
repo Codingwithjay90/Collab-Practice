@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-  <title>Hello, world!</title>
+  <title>Event Landing Page</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
@@ -20,23 +20,102 @@
 
   <main class="container">
 
-    <header>
-      <h1>Bootstrap</h1>
-    </header>
-
     <nav class="container-fluid">
-      <h2>navigation bar</h2>
+      <h2></h2>
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Performers</a>
+        <div class="dropdown">
+          <button class="dropbtn">Tickets
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <a href="#about">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
     </nav>
 
     <div class="jumbotron bg-primary bg-gradient text-light p-5">
       <div class="container-fluid p-5">
-        <h1 class="fw-bold text-dark">Lorem ipsum dolor</h1>
-        <p class="fs-5 fw-regular text-dark">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia vel eaque,
-          dolore dolorum laudantium, ea pariatur quibusdam modi, quos totam rem ipsa inventore est suscipit?
-          Veritatis sed animi eveniet placeat.</p>
-        <a href="about.html" class="btn btn-outline-info text-dark">bootstrap + css</a>
+        <h1 class="fw-bold text-dark">We Are Music Festival 2022</h1>
+        <p class="fs-5 fw-regular text-dark">The music concert that you have never experienced before,
+          a line up of legendary artists, from hippie rap, to punk/rock, a unique music experience, are you ready ?
+          We Are Music 2022.</p>
+        <a href="about.html" class="btn btn-outline-info text-dark">Lineup Info.</a>
       </div>
     </div>
+
+  
+
+
+    <header>
+     <h1>The Event Performers</h1>
+      <h3>Kid Cudi, Green Day, Linkin Park, Avril Lavigne</h3>
+
+      <button type="button" class="btn btn-danger">Purchase Tickets</button>
+    </header>
+
+      <!-- Artist 1 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img/kid-cudi.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Kid Cudi</h1>
+            <p>American Rapper</p>
+            <p>We love that guy</p>
+          </div>
+        </div>
+      </div>
+
+<!-- Artist 2 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="img/GreenDay.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Green Day</h1>
+            <p>American Rock Band</p>
+            <p>We love that band</p>
+          </div>
+        </div>
+      </div>
+
+<!-- Artist 3 -->
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="img/Linkin Park.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Linkin Park</h1>
+      <p>American Rock Band</p>
+      <p>Legendary Band</p>
+    </div>
+  </div>
+</div>
+
+<!-- Artist 4 -->
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="img/AL.jpg" alt="Avatar" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Avril Lavigne</h1>
+      <p>American Rock Artist</p>
+      <p>She Rocks!</p>
+    </div>
+  </div>
+</div>
 
 
     <div class="row wrapper">
