@@ -176,6 +176,9 @@ nav {
   padding-bottom: 60px;
 }
 
+.container-fluid {
+  display: inline-block;
+}
 
 .flip-card {
   background-color: transparent;
