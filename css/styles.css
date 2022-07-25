@@ -160,8 +160,9 @@ header {
 
 .box {
   display: inline-block;
-  margin-bottom: 200px;
-  margin-left: 5px;
+  margin-bottom: 200px!important;
+  margin: 25px;
+  margin-right: 10px;
 }
 
 .container-fluid {
@@ -217,6 +218,7 @@ header {
 
 .space {
   margin-top: 10px;
+  color: white;
 }
 
 .para {
@@ -230,10 +232,11 @@ header {
 }
 
 footer {
-  background-color: rgb(240, 248, 255, 0.5);
+  background-color: #333;
   color: rgb(0, 0, 0);
-  font-size: 32px;
   text-align: center;
+  padding: 10px;
+  height: 80px;
 }
 
 .bottom {
@@ -242,7 +245,7 @@ footer {
   margin-top: 15px;
 }
 
-.fa-meteor {
+.fa-twitter {
   color: rgb(255, 255, 255);
 }
 
@@ -258,12 +261,7 @@ footer {
   color: rgb(255, 255, 255);
 }
 
-.logo {
-  box-shadow: 4px 8px 10px rgb(0, 212, 255, 1);
-  height: 60px;
-  width: 100px;
-  float: right;
-}
+
 
 .copy {
   float: right;
